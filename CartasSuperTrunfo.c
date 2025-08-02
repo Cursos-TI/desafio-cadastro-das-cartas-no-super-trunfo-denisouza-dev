@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    // Declaração das variáveis da Carta 1
+    // Variáveis da Carta 1
     char estado1;                   // Letra representando o estado (de A a H)
     char codigo1[4];                // Código da carta (ex: A01)
     char cidade1[50];               // Nome da cidade
@@ -10,7 +10,7 @@ int main(){
     float pib1;                     // PIB da cidade em bilhões
     int pontosTuristicos1;          // Quantidade de pontos turísticos
 
-    // Declaração das variáveis da Carta 2
+    // Variáveis da Carta 2
     char estado2;
     char codigo2[4];
     char cidade2[50];
@@ -19,8 +19,8 @@ int main(){
     float pib2;
     int pontosTuristicos2;
 
-    // Entrada dos dados da Carta 1
-    // Os dados são inseridos pelo usuário no terminal
+    // Dados da Carta 1
+    // Os dados são inseridos pelo usuário
     printf("Digite o Estado (A-H) da carta 1: ");
     scanf(" %c", &estado1);  // Espaço antes do %c para ignorar enter pendente
 
@@ -30,13 +30,13 @@ int main(){
     printf("Digite o Nome da Cidade da carta 1: ");
     scanf(" %[^\n]", cidade1);  // Lê até a quebra de linha (permite espaços)
 
-    printf("Digite a População da cidade da carta 1 (sem ponto ou vírgula): ");
+    printf("Digite a População da cidade da carta 1 (Sem ponto ou vírgula): ");
     scanf("%d", &populacao1);
 
-    printf("Digite a Área (km²) da cidade da carta 1 (sem ponto ou vírgula): ");
+    printf("Digite a Área (km²) da cidade da carta 1 (Sem ponto ou vírgula): ");
     scanf("%f", &area1);
 
-    printf("Digite o PIB da cidade da carta 1 (em bilhões, sem ponto ou vírgula): ");
+    printf("Digite o PIB da cidade da carta 1 (Sem ponto ou vírgula): ");
     scanf("%f", &pib1);
 
     printf("Digite o Número de Pontos Turísticos da cidade da carta 1: ");
@@ -44,7 +44,7 @@ int main(){
 
     printf("\n");
 
-    // Entrada dos dados da Carta 2
+    // Dados da Carta 2
     printf("Digite o Estado (A-H) da carta 2: ");
     scanf(" %c", &estado2);
 
@@ -68,7 +68,7 @@ int main(){
 
     printf("\n");
 
-    // Exibição formatada dos dados da Carta 1
+    // Exibição dos dados da Carta 1
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -78,7 +78,7 @@ int main(){
     printf("PIB: %.2f bilhões\n", pib1);
     printf("Número de Pontos Turísticos: %d\n\n", pontosTuristicos1);
 
-    // Exibição formatada dos dados da Carta 2
+    // Exibição dos dados da Carta 2
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);

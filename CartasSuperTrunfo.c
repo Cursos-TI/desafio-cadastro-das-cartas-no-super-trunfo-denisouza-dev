@@ -17,7 +17,7 @@ int main(){
     char estado2;
     char codigo2[4];
     char cidade2[50];
-    unsigned long int populacao2;   // População da carta 2
+    unsigned long int populacao2;   
     float area2;
     float pib2;
     int pontosTuristicos2;
@@ -41,7 +41,7 @@ int main(){
     printf("Digite a Área (km²) da cidade da carta 1: ");
     scanf("%f", &area1); // Lê float
 
-    printf("Digite o PIB da cidade da carta 1 (em bilhões): ");
+    printf("Digite o PIB da cidade da carta 1: ");
     scanf("%f", &pib1); // Lê float
 
     printf("Digite o Número de Pontos Turísticos da cidade da carta 1: ");
@@ -71,7 +71,7 @@ int main(){
     printf("Digite a Área (km²) da cidade da carta 2: ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB da cidade da carta 2 (em bilhões): ");
+    printf("Digite o PIB da cidade da carta 2: ");
     scanf("%f", &pib2);
 
     printf("Digite o Número de Pontos Turísticos da cidade da carta 2: ");
@@ -118,7 +118,7 @@ int main(){
     int resultadoArea = area1 > area2;
     int resultadoPIB = pib1 > pib2;
     int resultadoPontos = pontosTuristicos1 > pontosTuristicos2;
-    int resultadoDensidade = densidade1 < densidade2; // menor densidade vence
+    int resultadoDensidade = densidade1 < densidade2;
     int resultadoPIBPerCapita = pibPerCapita1 > pibPerCapita2;
     int resultadoSuperPoder = superPoder1 > superPoder2;
 

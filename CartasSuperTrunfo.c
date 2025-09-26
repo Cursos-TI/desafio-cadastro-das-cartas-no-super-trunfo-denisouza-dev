@@ -97,9 +97,7 @@ int main(){
     printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
     printf("Super Poder: %.2f\n\n", superPoder1);
 
-    // ------------------------------
     // Exibição dos dados da Carta 2
-    // ------------------------------
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
@@ -112,9 +110,7 @@ int main(){
     printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
     printf("Super Poder: %.2f\n\n", superPoder2);
 
-    // ------------------------------
     // Comparação entre Cartas
-    // ------------------------------
     printf("Comparação de Cartas:\n");
 
     // Variáveis que armazenam o resultado da comparação
